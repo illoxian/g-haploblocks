@@ -139,6 +139,23 @@ Example
  ./haplotype-pbwt-lite -f ../tests/example-small.bm -b 10
  ```
 
+## Convert VCF file to binary matrix
+
+Compiling
+
+```bash
+# "Go to the directory"
+cd vcf2bm
+# "Compile"
+make
+```
+
+Convert a vcf file (e.g. from 1000 Genomes Project at ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/) to a binary matrix
+
+```bash
+./vcf2bm -v <vcf_file> -o <output_file> [-a at_once] [-h]
+```
+
 ## Generate data
 
 Generating file
