@@ -1,7 +1,3 @@
-#  
-
-
-
 # Finding all maximal perfect haplotype blocks in linear time
 
 Given *n* sequences each of size *m* on the alphabet {0,1}, find all Maximal Perfect Haplotype Blocks [1] of size at least *b*. 
@@ -18,17 +14,14 @@ This python script implements the simplest solution ever (?).
 ## Usage: 
 
 ```bash
-python maximal_perfect_haplotype_blocks_via_suffix_array.py -h
+python haplotype-sa.py -h
 -----------------------------------------------------------------------------
-maximal_perfect_haplotype_blocks_via_suffix_array.py  : Finding all maximal perfect haplotype blocks. 
+haplotype-sa.py  : Finding all maximal perfect haplotype blocks. 
 -----------------------------------------------------------------------------
-usage:  maximal_perfect_haplotype_blocks_via_suffix_array.py
-  -n number of sequences
-  -m: sequence size
-  -b: minimal block size
+usage:  haplotype-sa.py
+  -f inputfile (one line per sequence. n sequences (n lines) of the same length [Mandatory]
+  -b: minimal block size (>1) [Mandatory]
+  -o: output file name
   -h: help
 -----------------------------------------------------------------------------
 ```
-
-
-
