@@ -69,7 +69,7 @@ Example
 ./haploblocks ../tests/example-small.bm 10
  ```
 
-## Suffix Array algorithm
+## [Suffix Array algorithm](suffix_arrays/README.md)
 
 This python script implements the simplest solution ever (?). 
 
