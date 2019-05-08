@@ -139,8 +139,8 @@ public:
         // Modify the number of element at the same time
         struct rlimit limit;
 
-        limit.rlim_cur = 100000;
-        limit.rlim_max = 100000;
+        limit.rlim_cur = 10000;
+        limit.rlim_max = 10000;
 
         if (setrlimit(RLIMIT_NOFILE, &limit) != 0) {
             cerr << "setrlimit() failed with errno=" << errno << endl;
