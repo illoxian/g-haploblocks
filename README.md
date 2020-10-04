@@ -1,3 +1,9 @@
+# DISCLAIMER
+This is a fork of https://gitlab.com/bacazaux/haploblocks bacazaux's gitlab repository. No original license is given so any credit of the original work goes to https://gitlab.com/bacazaux/ .
+Forking this project to handle GAPS on a SNPs multiallelic matrix.
+
+Only the PBWT part is forked, hence everything else is removed with a commit.
+
 # Finding all maximal perfect haplotype blocks
 
 ## Problem definition
